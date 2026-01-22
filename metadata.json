@@ -1,0 +1,7 @@
+{
+  "name": "Video Script Generator AI",
+  "description": "Ứng dụng AI giúp tự động trích xuất lời thoại và kịch bản từ video sử dụng mô hình Gemini 2.5 Flash mạnh mẽ.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
