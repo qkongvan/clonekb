@@ -21,15 +21,12 @@ export async function generateScriptFromVideo(videoBase64: string, mimeType: str
     Phân tích video này và cung cấp một kịch bản chi tiết.
     
     YÊU CẦU ĐỊNH DẠNG BẮT BUỘC:
-    1. Mỗi câu thoại (transcript) phải nằm trên một dòng riêng biệt. KHÔNG viết các câu dính liền thành đoạn văn.
-    2. Nếu có tên người nói, hãy để theo dạng "Tên: Lời thoại" và xuống dòng sau mỗi câu.
-    3. Mô tả hành động hoặc bối cảnh phải được đặt trong dấu ngoặc đơn (...) và cũng nằm trên dòng riêng.
-    4. Trình bày thoáng, dễ đọc, ưu tiên cấu trúc dòng đơn.
+    1. Câu thoại của mỗi 1 cảnh quay phải viết liền mạch, hết cảnh xuống dòng.
+    2. Trình bày thoáng, dễ đọc, viết hoa các chữu đầu câu.
+    3. Tuyệt đối không chú thích các mốc thời gian.
     
     Nội dung bao gồm:
     - Lời thoại chính xác.
-    - Tên người nói (nếu xác định được).
-    - Hành động quan trọng.
     
     Hãy trả lời hoàn toàn bằng tiếng Việt.
   `;
